@@ -38,7 +38,8 @@ footer .left .company-info {
   margin: 38px 0;
 }
 
-footer .left .flex {
+footer .left .flex,
+footer .right .flex {
   display: flex;
   align-items: center;
 }
@@ -59,7 +60,7 @@ footer .left .copyright {
 
 footer .right {
   display: flex;
-  gap: 40px;
+  gap: 80px;
   font-size: var(--caption-s);
   font-weight: var(--regular);
   line-height: 150%;
@@ -75,4 +76,24 @@ footer .right .info-title {
   font-size: var(--caption-s);
   font-weight: var(--bold);
   color: var(--gray-800);
+}
+
+footer .right .info-title,
+footer .right .cs-number {
+  margin-bottom: 15px;
+}
+
+footer .right .flex {
+  gap: 22px;
+}
+
+footer .right .flex-col {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+footer .bank-owner {
+  font-weight: var(--medium);
+  margin-bottom: 8px;
 }

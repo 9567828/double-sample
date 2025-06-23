@@ -1,3 +1,223 @@
+/* 초기화 */
+button {
+  cursor: pointer;
+}
+
+input:focus, select:focus {
+  border: none;
+  outline: none;
+}
+
+select {
+    -webkit-appearance: none;  /* 크롬 화살표 없애기 */
+    -moz-appearance: none; /* 파이어폭스 화살표 없애기 */
+    appearance: none;  /* 화살표 없애기 */
+    display: inline-block;
+    border: 1px solid #dbdbdb;
+    width: 100%;
+}
+
 .inner {
   padding-top: 120px;
+}
+
+/* 상세페이지 */
+.detail-inner {
+  width: 1200px;
+  margin: 0 auto;
+  padding-top: 160px;
+}
+
+.sub-title {
+  text-align: center;
+}
+
+.logo-wrap {
+  width: 34px;
+  height: 34px;
+}
+
+.logo-wrap img {
+  width: 100%;
+  padding-top: 3px;
+}
+
+/* 색상표시 동그라미 */
+.colors {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.color-circle {
+  width: 12px;
+  height: 12px;
+  border-radius: 100%;
+  background-color: var(--black);
+}
+
+.color-circle.white {
+  border: 1px solid var(--gray-300);
+  background-color: var(--white);
+}
+
+/* 상품 컨디션 라벨 */
+.condition-btn {
+  width: 45px;
+  height: 16px;
+  padding: 0 2px;
+  border-radius: 5px;
+  background-color: var(--main-color);
+  color: var(--white);
+  font-size: 8px;
+  font-weight: var(--regular);
+  line-height: 150%;
+  text-transform: uppercase;
+}
+
+.condition-btn.deliver {
+  border: 1px solid var(--gray-300);
+  background-color: var(--white);
+  color: var(--gray-600);
+}
+
+.condition-btn.best {
+  background-color: #ED6356;
+}
+
+/* 가격정보 */
+.price_info {
+  color: var(--gray-800);
+}
+.origin-price {
+  text-decoration-line: line-through;
+}
+
+.reduced-price {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.reduced-price p:last-child {
+  color: black;
+}
+
+/* 홈 상품 진열 */
+
+.product-img {
+  width: 420px;
+  height: 520px;
+  margin-bottom: 12px;
+}
+
+.product-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.product-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.product-info {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+/* 버튼들 */
+.more-btn {
+  width: 200px;
+  height: 28px;
+  border-radius: 10px;
+  border: 1px solid var(--gray-500);
+  background-color: var(--white);
+  color: var(--gray-800);
+  font-size: var(--caption-xs);
+  font-weight: var(--regular);
+  line-height: 150%;
+  text-transform: uppercase;
+  align-self: center;
+  cursor: pointer;
+}
+
+/* 수량 선택 버튼 */
+.select-qty {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 6px;
+  width: 100px;
+  height: 30px;
+  border-radius: 8px;
+  border: 1px solid var(--gray-500);
+  color: var(--gray-800);
+}
+
+.select-qty button {
+  padding: 5px;
+  cursor: pointer;
+}
+
+.select-qty .qty-text {
+  padding: 5px;
+  width: 100%;
+  text-align: center;
+}
+
+/* 셀렉트 버튼 */
+.select-items {
+  width: 509px;
+  padding: 8px 15px;
+  border-radius: 8px;
+  border: 1px solid var(--gray-400);
+  font-size: var(--caption-s);
+  font-weight: var(--regular);
+  line-height: 150%;
+  color: var(--gray-600);
+  background: url("/imgs/ChevronDown.png") no-repeat 97% 50%;
+}
+
+.select-items:focus {
+  border: 1px solid var(--gray-400);
+}
+
+/* 바로구매, 장바구니, 하트 버튼 */
+.like-btn {
+  width: 100px;
+  height: 55px;
+  border-radius: 8px;
+  border: 1px solid var(--gray-400);
+}
+
+.like-btn svg {
+  width: 24px;
+  height: 24px;
+}
+
+.like-btn:hover svg {
+  fill: #ED4A4A;
+  stroke: none;
+}
+
+.primary-btn {
+  width: 195px;
+  height: 55px;
+  background-color: var(--main-color);
+  border-radius: 10px;
+  font-size: var(--content);
+  font-weight: var(--medium);
+  line-height: 150%;
+  color: var(--white);
+}
+
+.primary-btn:hover {
+  background-color: var(--hover-color);
+}
+
+.primary-btn.cart {
+  background-color: var(--blue-scale);
+  color: var(--gray-700);
 }
