@@ -1,0 +1,125 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css");
+
+.headB {
+  font-size: var(--head);
+  font-weight: var(--bold);
+  line-height: 140%;
+  letter-spacing: 0.02em;
+}
+
+.headM {
+  font-size: var(--head);
+  font-weight: var(--medium);
+  line-height: 140%;
+  letter-spacing: 0.02em;
+}
+
+.headR {
+  font-size: var(--head);
+  font-weight: var(--regular);
+  line-height: 140%;
+  letter-spacing: 0.02em;
+}
+
+.titleB {
+  font-size: var(--title);
+  font-weight: var(--bold);
+  line-height: 140%;
+  letter-spacing: 0.02em;
+}
+
+.titleM {
+  font-size: var(--title);
+  font-weight: var(--medium);
+  line-height: 140%;
+  letter-spacing: 0.02em;
+}
+
+.titleR {
+  font-size: var(--title);
+  font-weight: var(--regular);
+  line-height: 140%;
+  letter-spacing: 0.02em;
+}
+
+.bodyB {
+  font-size: var(--body);
+  font-weight: var(--bold);
+  line-height: 150%;
+}
+
+.bodyM {
+  font-size: var(--body);
+  font-weight: var(--medium);
+  line-height: 150%;
+}
+.bodyR {
+  font-size: var(--body);
+  font-weight: var(--regular);
+  line-height: 150%;
+}
+
+
+.contentB {
+  font-size: var(--content);
+  font-weight: var(--bold);
+  line-height: 150%;
+}
+.contentM {
+  font-size: var(--content);
+  font-weight: var(--medium);
+  line-height: 150%;
+}
+.contentR {
+  font-size: var(--content);
+  font-weight: var(--regular);
+  line-height: 150%;
+}
+
+.captionB {
+  font-size: var(--caption);
+  font-weight: var(--bold);
+  line-height: 150%;
+}
+.captionM {
+  font-size: var(--caption);
+  font-weight: var(--medium);
+  line-height: 150%;
+}
+.captionR {
+  font-size: var(--caption);
+  font-weight: var(--regular);
+  line-height: 150%;
+}
+
+.captionSB {
+  font-size: var(--caption-s);
+  font-weight: var(--bold);
+  line-height: 150%;
+}
+.captionSM {
+  font-size: var(--caption-s);
+  font-weight: var(--medium);
+  line-height: 150%;
+}
+.captionSR {
+  font-size: var(--caption-s);
+  font-weight: var(--regular);
+  line-height: 150%;
+}
+
+.captionXsB {
+  font-size: var(--caption-xs);
+  font-weight: var(--bold);
+  line-height: 150%;
+}
+.captionXsM {
+  font-size: var(--caption-xs);
+  font-weight: var(--medium);
+  line-height: 150%;
+}
+.captionXsR {
+  font-size: var(--caption-xs);
+  font-weight: var(--regular);
+  line-height: 150%;
+}
