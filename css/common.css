@@ -61,26 +61,33 @@ select {
 }
 
 /* 상품 컨디션 라벨 */
-.condition-btn {
-  width: 45px;
-  height: 16px;
+.label-wrap {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.condition-label {
+  display: block;
+  width: 48px;
+  height: 18px;
   padding: 0 2px;
   border-radius: 5px;
   background-color: var(--main-color);
   color: var(--white);
-  font-size: 8px;
+  text-align: center;
+  font-size: 10px;
   font-weight: var(--regular);
-  line-height: 150%;
+  line-height: 18px;
   text-transform: uppercase;
 }
 
-.condition-btn.deliver {
+.condition-label.deliver {
   border: 1px solid var(--gray-300);
   background-color: var(--white);
   color: var(--gray-600);
 }
 
-.condition-btn.best {
+.condition-label.best {
   background-color: #ED6356;
 }
 
@@ -220,4 +227,38 @@ select {
 .primary-btn.cart {
   background-color: var(--blue-scale);
   color: var(--gray-700);
+}
+
+/* 상품상페 탭메뉴 */
+.tab-menu-wrap {
+  /* position: fixed;
+  top: 120px;
+  left: 0; */
+  width: 100%;
+  height: 50px;
+  background-color: var(--blue-scale);
+  z-index: 10;
+}
+
+.tap-menu {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--gray-700);
+}
+
+.tap-menu li {
+  width: calc(100%/4);
+  height: 100%;
+  text-align: center;
+}
+
+.tap-menu li.selected {
+  border-bottom: 2px solid var(--main-color);
+}
+
+.tap-menu li a {
+  line-height: 50px;
 }
